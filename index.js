@@ -12,9 +12,9 @@ module.exports.gens = function gens(secret) {
   }
   var i =  secret * new Date().getTime();
   var a = i.toString().split('');
-  var f = ""
+  var f = ''
   for (var i = 0; i < a.length; i++) {
-    f += String.fromCharCode(97 + Number(a[i]));
+    f += String.fromCharCode(Number(a[i]));
   }
   return f
 }
