@@ -1,6 +1,6 @@
 {
   "name": "uuids",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Package to generate unique ids easily",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,8 @@
     "id",
     "uuid",
     "saravenpi",
-    "sara"
+    "sara",
+    "generate"
   ],
   "author": "saravenpi",
   "license": "MIT",
