@@ -1,11 +1,8 @@
 {
   "name": "uuids",
-  "version": "1.0.0",
-  "description": "Package to generate unique Ids easily",
+  "version": "1.0.3",
+  "description": "Package to generate unique ids easily",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saravenpi/uuids.git"
