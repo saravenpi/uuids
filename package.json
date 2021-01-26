@@ -1,0 +1,26 @@
+{
+  "name": "uuids",
+  "version": "1.0.0",
+  "description": "Package to generate unique Ids easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saravenpi/uuids.git"
+  },
+  "keywords": [
+    "unique",
+    "id",
+    "uuid",
+    "saravenpi",
+    "sara"
+  ],
+  "author": "saravenpi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saravenpi/uuids/issues"
+  },
+  "homepage": "https://github.com/saravenpi/uuids#readme"
+}
