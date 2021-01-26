@@ -14,8 +14,8 @@ module.exports.gens = function gens(secret) {
   var a = i.toString().split('');
   var f = ""
   for (var i = 0; i < a.length; i++) {
-    char='abcdefghijklmnopqrstuvwxyz'.charAt(Number(a[i]));
-    f += char
+    c='abcdefghijklmnopqrstuvwxyz'.charAt(Number(a[i]));
+    f += c
   }
   return f
 }
