@@ -19,7 +19,7 @@
     "url": "https://github.com/saravenpi/uuids/issues"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/saravenpi/uuids#readme"
 }
