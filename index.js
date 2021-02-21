@@ -1,5 +1,5 @@
 module.exports.geni = function geni(secret) {
-  if (!secret) { //verify if there is a secret
+  if (!secret) { //verify if there is a secret option
     var secret = 123 //else we asign a default one
   }
   var time = new Date().getTime(); //we generate from the time
@@ -7,7 +7,7 @@ module.exports.geni = function geni(secret) {
 }
 
 module.exports.gens = function gens(secret) {
-  if (!secret) { //verify if there is a secret
+  if (!secret) { //verify if there is a secret option
     var secret = 123 //else we asign a default one
   }
   var i = secret * new Date().getTime(); //we generate from the time and multiply it to the secret so we can't deduce a date from and id
