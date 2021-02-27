@@ -4,7 +4,7 @@
   "description": "a package to generate unique ids easily",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
