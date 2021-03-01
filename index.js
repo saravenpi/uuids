@@ -11,7 +11,6 @@ module.exports.geni = function geni(secret) {
         c = char.indexOf(a[i]) //we take the corresponding number for each letter
         secret = secret * c //we add it to the new secret in int type
       } else { //if not in our char
-        console.log("not in string:", a[i])
         secret = secret * 1 //we leave it like this
       }
     }
@@ -32,7 +31,6 @@ module.exports.gens = function gens(secret) {
         c = char.indexOf(a[i]) //we take the corresponding number for each letter
         secret = secret * c //we add it to the new secret in int type
       } else { //if not in our char
-        console.log("not in string:", a[i])
         secret = secret * 1 //we leave it like this
       }
     }
