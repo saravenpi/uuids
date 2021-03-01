@@ -29,7 +29,7 @@ console.log(secret_string_id_s)
 ```js
 const { geni } = require("uuids") //to only import the int generator
 var int_id_i = geni(78915)    //generating a unique random int
-var int_id_s = geni("secret") //same
+var int_id_s = geni("secret") //same with a string as parameter
 console.log(int_id_i) //==> outputs a unique random id
 console.log(int_id_s) //==> outputs a unique random id
 }
@@ -38,7 +38,7 @@ console.log(int_id_s) //==> outputs a unique random id
 ```js
 const { gens } = require("uuids") //to only import the string generator
 var string_id_i = gens(78915)    //generating a unique random string
-var string_id_s = geni("secret") //same with a string in parameter
+var string_id_s = geni("secret") //same with a string as parameter
 console.log(string_id_i) //==> outputs a unique random id
 console.log(string_id_s) //==> outputs a unique random id
 }
